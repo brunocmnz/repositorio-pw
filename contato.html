@@ -18,19 +18,19 @@
         </div>
     </nav>
     <div id="conteudo">
-        <h2 class="titulo">Telefone: (31) 9 9510-2977</h2>
-        <section id="descricao">
-            <img class="descricao__imagem" src="img/img-descricao.jpg" alt="Foto de Bruno">
-            <p id="descricao-texto">
-                Olá! Sou Bruno Menezes, estudante de Engenharia da Computação 
-                no CEFET-MG, apaixonado por tecnologia e com conhecimento voltado ao Back-End.
-                <br>
-                <br>
-                Além disso, também busco estudar tecnologias do desenvolvimento Front-End.
-                Atualmente,estudo tecnologias como HTML e CSS na Alura, e meu objetivo é 
-                 aprender também JavaScript e React.
-            </p>
-        </section>
+        <h2 class="titulo">Telefone: (31)995102977</h2>
+        <div class="submit-div">
+            <div class="submit-box">
+                <h2 class="submit-tipo">Telefone: </h2>
+                <input id="celular" class="submit" type="tel" placeholder="Ex: (00) 900009999" pattern="\(\d{2}\) \d{5}-\d{4}" required>
+            </div>
+            <div class="submit-box">
+                <h2 class="submit-tipo">Mensagem:</h2>
+                <textarea class="submit submit-mensagem" name="mensagem" id="mensagem" placeholder="Digite aqui sua mensagem"></textarea>
+            </div>
+            <button onclick="limpar()" id="enviar" type="submit">ENVIAR</button>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

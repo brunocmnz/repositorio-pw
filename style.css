@@ -3,15 +3,16 @@
 :root{
     --cor-texto-nav:  rgb(63, 101, 215);
     --cor-fundo-body: rgb(4, 0, 18);
-    --cor-fundo-nav: rgb(6, 1, 29);
+    --cor-fundo-nav: rgb(13, 4, 52);
     --cor-texto-body: rgb(192, 192, 192);
     --cor-hover-nav: rgb(135, 160, 234);
+    --fonte-principal: 'Courier New', Courier, monospace;
 }
 
 body{
     background-color: var(--cor-fundo-body);
     color: var(--cor-texto-body);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fonte-principal);
     line-height: 20px;
     width: 100%;
     padding-bottom: 4rem;
@@ -127,4 +128,53 @@ li li{
     font-size: 30px;
     margin-top: 2rem;
     font-weight: 700;
+}
+
+.submit-div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: right;
+    width: 50%;
+}
+
+.submit-box{
+    display: flex;
+    gap: 2rem;
+}
+
+.submit-tipo{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.submit{
+    font-size: 20px;
+    width: 500px;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.submit-mensagem{
+    height: 200px;
+    word-wrap: break-word;
+    text-align: left;
+    vertical-align: top;
+}
+
+#enviar{
+    margin-left: auto;
+    background-color: var(--cor-texto-nav);
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    padding: .7em;
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+}
+
+#enviar:hover{
+    cursor: pointer;
+    background-color: var(--cor-hover-nav);
 }
