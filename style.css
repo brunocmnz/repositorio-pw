@@ -60,21 +60,22 @@ nav div a:hover{
 }
 
 #descricao{
-    width: 800px;
+    width: 900px;
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
     align-items: center;
+    gap: 2rem;
 }
 
 #descricao__imagem{
-    height: 20rem;
+    max-height: 400px;
+    width: 40%;
     border-radius: 20px;
-    margin-left: 2rem;
 }
 
 #descricao-texto{
-    width: 400px;
+    width: auto;
 }
 
 #listas{
@@ -104,4 +105,11 @@ ul {
 
 li li{
     list-style-type: none;
+}
+
+.portfolio-item-titulo{
+    line-height: 35px;
+    font-size: 25px;
+    margin-top: 2rem;
+    font-weight: 700;
 }
