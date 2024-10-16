@@ -1,0 +1,81 @@
+
+
+:root{
+    --cor-texto-nav:  rgb(63, 101, 215);
+    --cor-fundo-body: rgb(4, 0, 18);
+    --cor-fundo-nav: rgb(6, 1, 29);
+    --cor-texto-body: rgb(192, 192, 192);
+    --cor-hover-nav: rgb(135, 160, 234);
+}
+
+body{
+    background-color: var(--cor-fundo-body);
+    color: var(--cor-texto-body);
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 20px;
+}
+
+nav{
+    background-color: var(--cor-fundo-nav);
+    height: 6vh;
+    padding: 1rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+nav div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav div a{ 
+    color: var(--cor-texto-nav);
+    text-decoration: none;
+}
+
+nav div a:hover{ 
+    color: var(--cor-hover-nav);
+}
+
+#sublinhado{
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15rem;
+    gap: 2rem;
+}
+
+#descricao{
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    padding: 2rem 0;
+}
+
+#descricao__imagem{
+    height: 30vh;
+    border-radius: 20px;
+}
+
+#descricao-texto{
+    width: 400px;
+}
+
+ul {
+    list-style-type: disc; /* Mostra os pontinhos */
+    padding-left: 20px; /* Adiciona espaço à esquerda da lista */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.subtitulos{
+    font-weight: 700;
+    font-size: 30px;
+}
