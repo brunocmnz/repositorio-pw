@@ -64,7 +64,7 @@ nav div a:hover{
 
 
 #descricao, #listas{
-    width: 90vw;
+    width: 1000px;
 }
 
 #descricao{
@@ -135,12 +135,12 @@ li li{
     flex-direction: column;
     gap: 2rem;
     justify-content: right;
-    width: 50%;
+    width: 700px;
 }
 
 .submit-box{
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
 }
 
 .submit-tipo{
