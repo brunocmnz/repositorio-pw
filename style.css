@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
+    margin-bottom: 3rem;
 }
 
 nav div{
@@ -46,10 +47,9 @@ nav div a:hover{
     text-underline-offset: 5px;
 }
 
-#nome{
+.titulo{
     font-size: 40px;
     color: var(--cor-texto-nav);
-    margin-top: 3rem;
 }
 
 #conteudo{
@@ -57,10 +57,12 @@ nav div a:hover{
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    font-size: 1.5rem;
+    line-height: 30px;
 }
 
 #descricao{
-    width: 900px;
+    width: 1100px;
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
@@ -69,8 +71,7 @@ nav div a:hover{
 }
 
 #descricao__imagem{
-    max-height: 400px;
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
 }
 
@@ -79,7 +80,7 @@ nav div a:hover{
 }
 
 #listas{
-    width: 800px;
+    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -109,7 +110,7 @@ li li{
 
 .portfolio-item-titulo{
     line-height: 35px;
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 2rem;
     font-weight: 700;
 }
