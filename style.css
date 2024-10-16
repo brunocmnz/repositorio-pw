@@ -61,8 +61,12 @@ nav div a:hover{
     line-height: 30px;
 }
 
+
+#descricao, #listas{
+    width: 90vw;
+}
+
 #descricao{
-    width: 1100px;
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
@@ -70,7 +74,11 @@ nav div a:hover{
     gap: 2rem;
 }
 
-#descricao__imagem{
+#img-home{
+    max-height: 500px;
+}
+
+.descricao__imagem{
     width: 50%;
     border-radius: 20px;
 }
@@ -80,7 +88,6 @@ nav div a:hover{
 }
 
 #listas{
-    width: 900px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -102,6 +109,13 @@ ul {
     flex-direction: column;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+ul li h3{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 7px;
+    margin-bottom: 0.3em;
 }
 
 li li{
