@@ -13,6 +13,8 @@ body{
     color: var(--cor-texto-body);
     font-family: 'Courier New', Courier, monospace;
     line-height: 20px;
+    width: 100%;
+    padding-bottom: 4rem;
 }
 
 nav{
@@ -44,27 +46,51 @@ nav div a:hover{
     text-underline-offset: 5px;
 }
 
+#nome{
+    font-size: 40px;
+    color: var(--cor-texto-nav);
+    margin-top: 3rem;
+}
+
 #conteudo{
     display: flex;
     flex-direction: column;
-    padding: 0 15rem;
     gap: 2rem;
+    align-items: center;
 }
 
 #descricao{
-    width: 100%;
+    width: 800px;
     display: flex;
-    gap: 4rem;
+    justify-content: space-between;
     padding: 2rem 0;
+    align-items: center;
 }
 
 #descricao__imagem{
-    height: 30vh;
+    height: 20rem;
     border-radius: 20px;
+    margin-left: 2rem;
 }
 
 #descricao-texto{
     width: 400px;
+}
+
+#listas{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.subtitulos{
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: var(--cor-texto-nav);
+    text-underline-offset: 7px;
+    margin-bottom: 1rem;
 }
 
 ul {
@@ -72,10 +98,10 @@ ul {
     padding-left: 20px; /* Adiciona espaço à esquerda da lista */
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }
 
-.subtitulos{
-    font-weight: 700;
-    font-size: 30px;
+li li{
+    list-style-type: none;
 }
